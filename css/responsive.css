@@ -1,0 +1,158 @@
+@media screen and (max-width:1200px) {
+    body.toggle .navlink {
+        transform: translateX(0);
+
+    }
+
+    .open {
+        display: block;
+        color: #fff;
+        font-size: 30px;
+    }
+
+    .closebutton {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 40px;
+        color: #fff;
+        font-size: 25px;
+    }
+
+    .saerchbar {
+        display: none;
+    }
+
+
+    .navlink {
+        transform: translateX(-100%);
+        transition: all 0.5s linear;
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        background: var(--primary-color);
+        width: 400px;
+        padding: 40px;
+        margin: 0;
+        z-index: 9;
+    }
+
+    .navlink ul {
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .navbar .navlink {
+        margin-left: 0;
+
+    }
+
+    .navlink ul li a {
+        color: #fff;
+    }
+
+    .navlink ul li {
+        padding: 10px;
+    }
+
+    .social_profile ul li a {
+        font-size: 18px;
+        width: 45px;
+        height: 45px;
+        line-height: 47px;
+    }
+
+    .copyright {
+        margin-top: 20px;
+        padding-top: 10px;
+    }
+
+    #search-wrapper {
+        max-width: 250px;
+    }
+}
+
+@media screen and (max-width:991px) {
+
+    .hotel_box {
+        margin-bottom: 35px;
+    }
+
+    .row.upcoming_events h3 {
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
+
+    .right_side_ab {
+        margin-top: 20px;
+    }
+
+    .blog_img img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .blog_img img {
+        width: 60%;
+        margin-top: 20px;
+    }
+
+    .banner_box h1 {
+        font-size: 35px;
+    }
+
+    .blog_section {
+        padding: 40px 0;
+    }
+
+    .blog_heading {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .home_asidebar {
+        padding: 40px 0;
+    }
+
+    .below_section {
+        padding: 40px 0px;
+    }
+
+    .hotel_detail {
+        padding: 40px 0;
+    }
+
+    .bottom_text_section {
+        padding: 40px 0;
+    }
+
+    .events_section {
+        padding: 40px 0;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .row.upcoming_events {
+        padding-left: 20px;
+        margin-left: 20px;
+    }
+
+    .row.upcoming_events h3 {
+        font-size: 28px;
+    }
+
+    .box img {
+        width: 90px;
+    }
+
+    .blog_img img {
+        width: 100%;
+    }
+
+    .banner_box h1 {
+        font-size: 30px;
+    }
+}
