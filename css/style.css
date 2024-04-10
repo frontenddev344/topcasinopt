@@ -330,3 +330,73 @@ nav {
 }
 
 /* privacy styling end */
+/* terms styling start */
+/* terms styling start */
+.terms__section {
+    position: relative;
+    height: 400px;
+    background-image: url(../img/termsbanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+    margin-top: 0;
+    isolation: isolate;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.terms__section::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.55);
+    z-index: -1;
+}
+
+.terms_conditons {
+    padding: 40px 0;
+}
+
+.terms_conditons a {
+    color: #000;
+    font-weight: 700;
+}
+
+.terms__section .banner__text h1 {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.banner__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: var(--main-color);
+    width: 80%;
+    transform: translate(-50%, -50%);
+}
+
+.terms_conditons ul li {
+    list-style-type: disc;
+    margin-left: 15px;
+}
+
+.terms_conditons ol li {
+    margin-left: -9px;
+    list-style-type: unset;
+
+}
+
+/* terms styling end */
+/* terms styling end */
