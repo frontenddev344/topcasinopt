@@ -170,6 +170,7 @@ nav {
     height: 100%;
     z-index: 0;
 }
+
 .about_section h3 {
     font-size: 22px;
     text-align: left;
@@ -189,6 +190,26 @@ nav {
 .about_section {
     padding: 80px 0;
 }
+
+.info_left {
+    border-radius: 5px;
+    padding: 30px;
+    background: url(../img/aboutimg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+   color: #000;
+}
+.info_right {
+    background: var(--primary-color);
+    padding: 30px;
+    border-radius: 5px;
+}
+
 input.form-control.sub_btn {
     width: 200px;
     padding: 10px;
