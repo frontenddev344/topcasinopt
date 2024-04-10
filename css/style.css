@@ -202,8 +202,9 @@ nav {
     flex-direction: column;
     justify-content: center;
     height: 100%;
-   color: #000;
+    color: #000;
 }
+
 .info_right {
     background: var(--primary-color);
     padding: 30px;
@@ -533,10 +534,14 @@ a.btn.btn-primary.setting-cookies:hover {
 /* 
 brands styling start */
 
-.casino_in_monaco.section.macau_casinos_section .left_monaco {
-    border-top: 1px solid #c77a63;
-    border-bottom: 1px solid #c77a63;
+ .brands_inner {
+    border-top: 1px solid var(--primary-color);
+    border-bottom: 1px solid var(--primary-color);
     padding: 30px 0;
 }
-  
-  /* brands styling start*/
+
+.brands_info {
+    padding: 80px 0;
+}
+
+/* brands styling start*/
