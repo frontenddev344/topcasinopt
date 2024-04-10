@@ -170,7 +170,7 @@ nav {
     height: 100%;
     z-index: 0;
 }
-.contact_section h3 {
+.about_section h3 {
     font-size: 22px;
     text-align: left;
     line-height: 30px;
@@ -178,7 +178,7 @@ nav {
     padding: 0;
 }
 
-.contact_section h2 {
+.about_section h2 {
     font-size: 35px;
     text-align: left;
     padding: 0;
@@ -186,7 +186,7 @@ nav {
 
 }
 
-.contact_section {
+.about_section {
     padding: 80px 0;
 }
 input.form-control.sub_btn {
