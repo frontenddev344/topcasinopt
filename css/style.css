@@ -561,5 +561,7 @@ brands styling start */
     height: 100%;
     z-index: 0;
 }
-
+.right_monaco {
+    text-align: center;
+}
 /* brands styling start*/
