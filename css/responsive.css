@@ -76,26 +76,22 @@
 
 @media screen and (max-width:991px) {
 
-    .hotel_box {
-        margin-bottom: 35px;
+    .brands_inner_right img {
+        border-bottom-right-radius: 0;
+        border-start-start-radius: 0;
+        height: 400px;
+        object-fit: cover;
     }
 
-    .row.upcoming_events h3 {
-        margin-bottom: 0;
-        margin-top: 20px;
+    .brands_inner {
+        border-bottom: unset;
+       
     }
-
-    .right_side_ab {
-        margin-top: 20px;
-    }
-
-    .blog_img img {
-        width: 100%;
-    }
+    
 }
 
 @media screen and (max-width:767px) {
-    .blog_img img {
+    .online_img img {
         width: 60%;
         margin-top: 20px;
     }
@@ -104,51 +100,44 @@
         font-size: 35px;
     }
 
-    .blog_section {
+    .online_section {
         padding: 40px 0;
     }
 
-    .blog_heading {
+    .online_heading {
         text-align: center;
         margin-bottom: 30px;
     }
 
-    .home_asidebar {
+    .below_banner {
         padding: 40px 0;
     }
 
-    .below_section {
-        padding: 40px 0px;
-    }
-
-    .hotel_detail {
+    .brands_info {
         padding: 40px 0;
     }
-
-    .bottom_text_section {
+    .below_info {
         padding: 40px 0;
     }
-
-    .events_section {
+    .above_footer {
+        padding: 40px 0;
+    }
+    .home_info {
+        padding: 40px 0;
+        
+    }
+    .home_inner h2 {
+        font-size: 28px;
+    }
+    .about_section {
         padding: 40px 0;
     }
 }
 
 @media screen and (max-width:575px) {
-    .row.upcoming_events {
-        padding-left: 20px;
-        margin-left: 20px;
-    }
 
-    .row.upcoming_events h3 {
-        font-size: 28px;
-    }
 
-    .box img {
-        width: 90px;
-    }
-
-    .blog_img img {
+    .online_img img {
         width: 100%;
     }
 
