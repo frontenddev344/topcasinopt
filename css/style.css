@@ -152,6 +152,41 @@ nav {
 }
 
 /* home page end */
+/* online casino styling start */
+.online_section {
+    padding: 80px 0;
+}
+
+.online_heading h2 {
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.online_heading {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.online_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.online_img img {
+    width: 75%;
+    text-align: center;
+}
+
+.online_img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+/* online casino styling end */
 /* about styling start */
 .about_banner {
     height: 400px;
