@@ -579,6 +579,10 @@ brands styling start */
     text-align: center;
 }
 
+.brands_inner p {
+    text-align: center;
+}
+
 /* brands styling start*/
 /* above footer styling start */
 .above_footer {
@@ -624,6 +628,11 @@ a.view:hover {
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
     background: transparent;
+}
+
+.fun_page_button {
+    margin: 30px 0;
+    text-align: center;
 }
 
 /* sports styling end */
