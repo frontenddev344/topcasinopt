@@ -588,6 +588,24 @@ brands styling start */
 
 /* above footer styling end */
 /* sport styling start */
-.sport_banner {}
+
+
+.sport_banner {
+    height: 400px;
+    background-image: url(../img/sportbanner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.sport_banner::before {
+    position: absolute;
+    content: '';
+    background: #000000a8;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
 
 /* sports styling end */
