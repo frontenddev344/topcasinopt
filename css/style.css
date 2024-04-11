@@ -609,6 +609,8 @@ brands styling start */
 .brands_inner_right img {
     border-bottom-right-radius: 40px;
     border-start-start-radius: 50px;
+    height: 400px;
+    object-fit: cover;
 }
 
 .brands_inner_right {
