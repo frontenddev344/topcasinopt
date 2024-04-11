@@ -328,7 +328,7 @@ input.form-control.sub_btn:hover {
 }
 
 .self_footer ul li a:hover {
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 .self_footer_address ul li {
