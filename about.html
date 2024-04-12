@@ -82,16 +82,22 @@
                     <div class="right_side_first info_right">
                         <!-- <img src="./assets/images/Homebanner.jpeg" alt="" class="img-fluid"> -->
                         <h2>Entrar em contato</h2>
-                        <form action="/submit" method="post">
+                        <form id="myForm" action="/submit" method="post">
                             <div class="div mb-4">
-                                <input type="text" placeholder="Nome" class="form-control ">
+                                <input type="text" placeholder="Nome" class="form-control" id="name" name="name">
+
                             </div>
                             <div class="div  mb-4 d-flex">
-                                <input type="email" placeholder="E-mail" class="form-control me-2">
-                                <input type="number" placeholder="Número" class="form-control">
+                                <input type="email" placeholder="E-mail" class="form-control me-2" id="email"
+                                    name="email">
+
+                                <input type="number" placeholder="Número" class="form-control" id="number"
+                                    name="number">
+
                             </div>
                             <div class="div mb-4">
-                                <textarea class="form-control" placeholder="Mensagem" rows="10"></textarea>
+                                <textarea class="form-control" placeholder="Mensagem" rows="10" id="message"
+                                    name="message"></textarea>
                             </div>
                             <div class="div">
                                 <input type="Submit" value="Enviar" class="form-control sub_btn">
@@ -192,8 +198,10 @@
                 $("body").removeClass("toggle");
             });
         });
+
     </script>
-  
+
+
 </body>
 
 </html>
