@@ -689,3 +689,27 @@ a.view:hover {
 }
 
 /* sports styling end */
+
+
+
+
+/* inner-pages styling start */
+.brands-info.main {
+    padding: 50px 0;
+}
+.brands_banner.betcasino {
+    background-image: url(../img/bet.ptcasino.jpg);
+}
+.brands_banner.pokerbanner{
+    background-image: url(../img/pokerstarcasino.jpg);
+}
+.brands_banner.esc-onlinebanner {
+    background-image: url(../img/esconline.jpg);
+}
+.brands_banner.casino-portugalbanner {
+    background-image: url(../img/casinoportugal.jpg);
+}
+.brands_banner.bwinbanner {
+    background-image: url(../img/bwin.jpg);
+}
+/* inner-pages styling end */
