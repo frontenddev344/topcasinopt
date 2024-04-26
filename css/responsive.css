@@ -85,9 +85,12 @@
 
     .brands_inner {
         border-bottom: unset;
-       
+
     }
-    
+
+    .brands_info .row {
+        flex-direction: column-reverse;
+    }
 }
 
 @media screen and (max-width:767px) {
@@ -117,19 +120,24 @@
     .brands_info {
         padding: 40px 0;
     }
+
     .below_info {
         padding: 40px 0;
     }
+
     .above_footer {
         padding: 40px 0;
     }
+
     .home_info {
         padding: 40px 0;
-        
+
     }
+
     .home_inner h2 {
         font-size: 28px;
     }
+
     .about_section {
         padding: 40px 0;
     }
