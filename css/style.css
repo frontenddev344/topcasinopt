@@ -796,6 +796,10 @@ a.text-border:hover {
     position: relative;
 }
 
+.brands-board {
+    padding: 50px 0;
+}
+
 .brand-bonus li::before {
     content: '';
     position: absolute;
@@ -828,13 +832,17 @@ a.text-border:hover {
 .brands_banner.bwinbanner {
     background-image: url(../img/bwin.jpg);
 }
-.brands_banner.betsportbanner{
+
+.brands_banner.betsportbanner {
     background-image: url(../img/betsport.jpg);
 }
-.brands_banner.betclicsportabanner{
+
+.brands_banner.betclicsportabanner {
     background-image: url(../img/betclicsport.jpg);
 }
+
 .brands_banner.esconlinebanner {
     background-image: url(../img/onlineescsport.jpg);
 }
+
 /* inner-pages styling end */
