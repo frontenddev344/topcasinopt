@@ -697,19 +697,136 @@ a.view:hover {
 .brands-info.main {
     padding: 50px 0;
 }
+
+.brand-inner {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+.brand-main {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    border-radius: 8px;
+    border: solid 1px #ddd;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+.brand-btn {
+    display: flex;
+    flex-direction: column;
+}
+
+.brand-btn a {
+    margin-top: 10px;
+    text-decoration: none;
+    padding: 10px 30PX;
+    color: #fff;
+    background: var(--primary-color);
+    border: 1px solid transparent;
+    transition: all 0.5s;
+    border-radius: 5px;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.brand-btn a:hover {
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+    background: transparent;
+}
+
+.brand-btn a.unique-clr {
+    background: transparent;
+    border: 2px solid #62406b;
+    color: #62406b;
+    padding: 9px 30PX;
+}
+
+.brand-btn a.unique-clr:hover {
+    background: #62406b;
+    color: #fff;
+}
+
+.brand-rating {
+    background: #e7e3e845;
+    padding: 10px 35px;
+}
+
+a.text-border:hover {
+    text-decoration: underline;
+    color: inherit;
+}
+
+.brand-rating h4 {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #62406b;
+    margin-bottom: 0;
+}
+
+.brand-rating span {
+    font-size: 60px;
+    line-height: 1em;
+    font-weight: 700;
+    color: #62406b;
+}
+
+.brand-rating p {
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: grey;
+    font-family: 'Oxygen';
+    letter-spacing: 0.8px;
+}
+
+.brand-picture {
+    max-width: 170px;
+}
+
+.brand-bonus li {
+    color: #000;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: system-ui;
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.brand-bonus li::before {
+    content: '';
+    position: absolute;
+    left: -23px;
+    top: 5px;
+    display: inline-block;
+    height: 1rem;
+    width: 1rem;
+    min-width: 1rem;
+    background-size: cover;
+    background-image: url(../img/roll.png);
+}
+
 .brands_banner.betcasino {
     background-image: url(../img/bet.ptcasino.jpg);
 }
-.brands_banner.pokerbanner{
+
+.brands_banner.pokerbanner {
     background-image: url(../img/pokerstarcasino.jpg);
 }
+
 .brands_banner.esc-onlinebanner {
     background-image: url(../img/esconline.jpg);
 }
+
 .brands_banner.casino-portugalbanner {
     background-image: url(../img/casinoportugal.jpg);
 }
+
 .brands_banner.bwinbanner {
     background-image: url(../img/bwin.jpg);
 }
+
 /* inner-pages styling end */
