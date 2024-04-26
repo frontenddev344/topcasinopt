@@ -828,5 +828,13 @@ a.text-border:hover {
 .brands_banner.bwinbanner {
     background-image: url(../img/bwin.jpg);
 }
-
+.brands_banner.betsportbanner{
+    background-image: url(../img/betsport.jpg);
+}
+.brands_banner.betclicsportabanner{
+    background-image: url(../img/betclicsport.jpg);
+}
+.brands_banner.esconlinebanner {
+    background-image: url(../img/onlineescsport.jpg);
+}
 /* inner-pages styling end */

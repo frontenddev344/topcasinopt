@@ -93,7 +93,53 @@
     }
 }
 
+@media screen and (max-width:850px) {
+    .brand-btn a {
+        padding: 10px 13PX;
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .brand-rating {
+        padding: 10px 14px;
+    }
+
+    .brand-rating span {
+        font-size: 32px;
+    }
+
+    .brand-bonus li {
+        font-size: 14px;
+    }
+
+    .brand-rating h4 {
+        font-size: 14px;
+    }
+}
+
 @media screen and (max-width:767px) {
+    .brand-main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .brand-rating {
+        width: 100%;
+        text-align: center;
+    }
+
+    .brand-picture {
+        max-width: 100%;
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    .brand-inner {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
     .online_img img {
         height: 500px;
         object-fit: cover;
